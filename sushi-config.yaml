@@ -157,10 +157,40 @@ pages:
 # include a `menu.xml` file in input/includes.
 menu:
   Home: index.html
+
 #  Guidance: guidance.html
+  Introduction: 
+    Scope and content: scope.html
+    Background: background.html
+    Challenges: challenges.html
+    Design choices: design.html
+    References: references.html
+  Functional:
+    Use cases: usecases.html
+    Workflow: workflow.html
+#      - Status management
+#      - Scenarios
+    Logical models: logicals.html
+    Terminology considerations: terminology.html
+
+
+  Implementation:
+    Mapping to profiles: profilemapping.html
+    Examples: examples.html
+    Implementation notes: implementationnotes.html
+
+  About: 
+    Authors: authors.html
+    Known issues: knownissues.html
+    Downloads: downloads.html
+    Dependencies: dependencies.html
+    Copyright: copyright.html
+    Cross-version analysis: xversion.html
+
   Artifacts: artifacts.html
-  Downloads: downloads.html
-  Changes: changes.html
+  Rx: index.html
+#  Downloads: downloads.html
+#  Changes: changes.html
 #  History: ../history.html
 
 # The parameters property represents IG.definition.parameter. Rather
